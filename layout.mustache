@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="{{encoding}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>{{title}}</title>
+    <style type="text/css">
+            {{{style}}}
+    </style>
+</head>
+<body>
+{{{slideshow}}}
+
+<script type="text/javascript">
+        {{{script}}}
+</script>
+<script>
+    $(document).ready(function () {
+        var deck = new $.scrolldeck({
+            duration: 600,
+            buttons: '.nav-button',
+            easing: 'easeInOutExpo'
+        });
+
+    });
+</script>
+
+</body>
+</html>

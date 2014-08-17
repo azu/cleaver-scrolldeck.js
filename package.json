@@ -1,0 +1,27 @@
+{
+  "name": "cleaver-scrolldeck.js",
+  "description": "cleaver theme using scrolldeck.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/cleaver-scrolldeck.js/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/cleaver-scrolldeck.js.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build":"gulp scripts && gulp css",
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/cleaver-scrolldeck.js/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4"
+  }
+}
