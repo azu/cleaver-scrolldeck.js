@@ -140,7 +140,7 @@
                     scrollToSlide(getPrevScrollpoint());
                 }
                 // down/right arrow, space = scroll down
-                else if ((e.keyCode == 39 || e.keyCode == 32 || e.keyCode == 40) && currIndex != slides.length-1) {
+                else if ((e.keyCode == 39 || e.keyCode == 40) && currIndex != slides.length-1) {
                     scrollToSlide(getNextScrollpoint());
                 }
             });
